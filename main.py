@@ -47,3 +47,5 @@ while True:
     # set if i clicked q button then close the video window
     if cv.waitKey(1) == ord('q'):
         break
+
+cv.destroyAllWindows()
