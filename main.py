@@ -36,6 +36,7 @@ while True:
             drawing.draw_landmarks(
                 image=frame,
                 landmark_list=hand_landmarks,
+                connections=mpHands.HAND_CONNECTIONS,
             )
         
     
